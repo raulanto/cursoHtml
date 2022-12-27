@@ -1,0 +1,32 @@
+table{
+  width: 100%;
+  border-collapse:collapse ;
+}
+thead{
+  font-size: large;
+}
+tbody{
+  font-size: 20px;
+}
+tfoot{
+  background-color: burlywood;
+  color: red;
+}
+th,td{
+  border: solid 1px rgba(55, 46, 33, 0.263);
+  padding: 5px;
+}
+th{
+  background-color: black;
+  color: white;
+  
+}
+
+tr:nth-child(even){
+  background-color: antiquewhite;
+}
+
+tr:hover{
+  background-color: tan;
+  cursor: pointer;
+}
