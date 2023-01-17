@@ -1,0 +1,105 @@
+::-webkit-scrollbar-track{
+    background: black;
+    border-radius: 5px;
+  }
+  ::-webkit-scrollbar-thumb{
+    background: black;
+    border-radius: 5px;
+  }
+  ::-webkit-scrollbar-track{
+    background: white;
+    border-radius:5px ;
+  }
+  
+  
+  html h1{
+    font-family: 'Inter', sans-serif;
+  }
+  
+  body{
+    margin: 0px;
+    background-color: #efefef;
+  }
+  
+  header{
+    background-color: rgb(1, 30, 30);
+    color: white;
+    padding: 1rem 2rem;
+  }
+  
+  header  h1{
+    font-size: 3rem;
+    text-align: center;
+  }
+  
+  .container{
+    width: 400px;
+    margin: 1px auto;
+    padding: 40px;
+  }
+  
+  nav{
+    width: 100%;
+    display: block;
+    float:left;
+    background-color: #333;
+  }
+  nav a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding:15px 16px;
+    text-decoration: none;
+  }
+  nav a:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  
+  section article{
+    transition: box-shadow 0.3s ease ;
+    background-color: white;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.10rem 0;
+    cursor: pointer;
+  }
+  
+  section article img{
+    width: 20em;
+  }
+  
+  section article h2,section article p{
+    margin: 1rem;
+  }
+  section article:hover{
+    box-shadow: 0 0.1rem 0.5rem rgba(0, 0, 0, 0.3);
+  }
+  
+  footer{
+    background-color: #222;
+    padding: 2rem;
+    color: white;
+  }
+  
+  footer section{
+    float:right ;
+  }
+  
+  footer p{
+    margin: 0;
+  }
+  
+  footer a{
+    transition: color 0.3s ease;
+    text-decoration: none;
+    color: white;
+  }
+  
+  footer a:hover{
+    color: blue;
+    
+  }
+  
