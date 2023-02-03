@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.imagen-principal{
+    width:100vw ;
+    height: 30vw;
+}
+
+.galeria{
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+}
+
+.imagen-galeria{
+    width: 30vw;
+}
